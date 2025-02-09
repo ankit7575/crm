@@ -1,0 +1,257 @@
+{
+  "products": [
+    {
+      "ProductID": 1,
+      "ProductName": "Scooter",
+      "ModelName": "Model X",
+      "Category": "Electric Vehicles",
+      "Stock": 150,
+      "Price": 500,
+      "Details": "Electric Scooter, 100km range, Red color",
+      "Image": "/assets/Scooter.jpeg",
+      "BillingPDF": "/files/invoice_scooter.pdf",
+      "SubProducts": [
+        {
+          "SubProductID": 1,
+          "SubProductName": "Tunwal Charger 60V, 3 AH",
+          "Price": 100,
+          "Details": "Fast charger for electric scooters",
+          "Image": "/assets/Charger.jpg",
+          "BillingPDF": "/files/invoice_charger.pdf",
+          "PricingDetails": {
+            "CostPerUnit": 30,
+            "TCS": 0.5,
+            "GST": 18,
+            "IGST": 5,
+            "FinalCost": 35
+          },
+          "PurchaseHistory": [
+            {
+              "PurchaseID": 1,
+              "Quantity": 2,
+              "PurchaseDate": "2023-01-15",
+              "InvoiceNumber": "INV-20230115",
+              "SupplierName": "ABC Supplies",
+              "SupplierContact": "123-456-7890",
+              "FranchiseLocation": "Jind",
+              "PricingDetails": {
+                "CostPerUnit": 30,
+                "TCS": 0.5,
+                "GST": 18,
+                "IGST": 5,
+                "FinalCost": 35
+              }
+            },
+            {
+              "PurchaseID": 2,
+              "Quantity": 5,
+              "PurchaseDate": "2023-05-20",
+              "InvoiceNumber": "INV-20230220",
+              "SupplierName": "ABC Supplies",
+              "SupplierContact": "123-456-7890",
+              "FranchiseLocation": "Jind",
+              "PricingDetails": {
+                "CostPerUnit": 30,
+                "TCS": 0.5,
+                "GST": 18,
+                "IGST": 5,
+                "FinalCost": 35
+              }
+            }
+          ]
+        },
+        {
+          "SubProductID": 2,
+          "SubProductName": "Scooter Battery 48V",
+          "Price": 80,
+          "Details": "Lithium battery for electric scooter",
+          "Image": "/assets/Charger.jpg",
+          "BillingPDF": "/files/invoice_battery.pdf",
+          "PricingDetails": {
+            "CostPerUnit": 30,
+            "TCS": 0.5,
+            "GST": 18,
+            "IGST": 5,
+            "FinalCost": 35
+          },
+          "PurchaseHistory": [
+            {
+              "PurchaseID": 3,
+              "Quantity": 3,
+              "PurchaseDate": "2023-09-18",
+              "InvoiceNumber": "INV-20230118",
+              "SupplierName": "ABC Supplies",
+              "SupplierContact": "123-456-7890",
+              "FranchiseLocation": "Jind",
+              "PricingDetails": {
+                "CostPerUnit": 30,
+                "TCS": 0.5,
+                "GST": 18,
+                "IGST": 5,
+                "FinalCost": 35
+              }
+            },
+            {
+              "PurchaseID": 4,
+              "Quantity": 6,
+              "PurchaseDate": "2023-05-10",
+              "InvoiceNumber": "INV-20230310",
+              "SupplierName": "ABC Supplies",
+              "SupplierContact": "123-456-7890",
+              "FranchiseLocation": "Narwana",
+              "PricingDetails": {
+                "CostPerUnit": 30,
+                "TCS": 0.5,
+                "GST": 18,
+                "IGST": 5,
+                "FinalCost": 35
+              }
+            }
+          ]
+        }
+      ],
+      "PricingDetails": {
+        "CostPerUnit": 500,
+        "TCS": 0.5,
+        "GST": 18,
+        "IGST": 5,
+        "FinalCost": 600
+      },
+      "PurchaseHistory": [
+        {
+          "PurchaseID": 1,
+          "Quantity": 5,
+          "PurchaseDate": "2023-07-10",
+          "InvoiceNumber": "INV-20230110",
+          "SupplierName": "ABC Supplies",
+          "SupplierContact": "123-456-7890",
+          "FranchiseLocation": "Jind",
+          "PricingDetails": {
+            "CostPerUnit": 500,
+            "TCS": 0.5,
+            "GST": 18,
+            "IGST": 5,
+            "FinalCost": 600
+          }
+        },
+        {
+          "PurchaseID": 2,
+          "Quantity": 10,
+          "PurchaseDate": "2023-06-15",
+          "InvoiceNumber": "INV-20230215",
+          "SupplierName": "ABC Supplies",
+          "SupplierContact": "123-456-7890",
+          "FranchiseLocation": "Narwana",
+          "PricingDetails": {
+            "CostPerUnit": 500,
+            "TCS": 0.5,
+            "GST": 18,
+            "IGST": 5,
+            "FinalCost": 600
+          }
+        }
+      ],
+      "Supplier": {
+        "SupplierID": 1,
+        "SupplierName": "ABC Supplies",
+        "SupplierContact": "123-456-7890",
+        "Location": "Jind"
+      }
+    },
+    {
+      "ProductID": 2,
+      "ProductName": "Battery",
+      "ModelName": "Battery 48V",
+      "Category": "Accessories",
+      "Stock": 200,
+      "Price": 50,
+      "Details": "Lithium battery, 48V",
+      "Image": "/assets/Charger.jpg",
+      "BillingPDF": "/files/invoice_battery_product.pdf",
+      "SubProducts": [],
+      "PricingDetails": {
+        "CostPerUnit": 50,
+        "TCS": 0.5,
+        "GST": 18,
+        "IGST": 5,
+        "FinalCost": 60
+      },
+      "PurchaseHistory": [
+        {
+          "PurchaseID": 3,
+          "Quantity": 10,
+          "PurchaseDate": "2023-02-15",
+          "InvoiceNumber": "INV-20230215",
+          "SupplierName": "XYZ Enterprises",
+          "SupplierContact": "987-654-3210",
+          "FranchiseLocation": "Kaithal",
+          "PricingDetails": {
+            "CostPerUnit": 50,
+            "TCS": 0.5,
+            "GST": 18,
+            "IGST": 5,
+            "FinalCost": 60
+          }
+        },
+        {
+          "PurchaseID": 4,
+          "Quantity": 20,
+          "PurchaseDate": "2023-03-12",
+          "InvoiceNumber": "INV-20230312",
+          "SupplierName": "XYZ Enterprises",
+          "SupplierContact": "987-654-3210",
+          "FranchiseLocation": "Kaithal",
+          "PricingDetails": {
+            "CostPerUnit": 50,
+            "TCS": 0.5,
+            "GST": 18,
+            "IGST": 5,
+            "FinalCost": 60
+          }
+        }
+      ],
+      "Supplier": {
+        "SupplierID": 2,
+        "SupplierName": "XYZ Enterprises",
+        "SupplierContact": "987-654-3210",
+        "Location": "Kaithal"
+      }
+    }
+  ],
+
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "ABC Supplies",
+      "contact": "123-456-7890",
+      "totalStock": 1000,
+      "returns": 50,
+      "refunds": 30,
+      "orders": 300,
+      "products": [
+        { "id": 1, "name": "Scooter", "quantity": 150 },
+        { "id": 2, "name": "Battery", "quantity": 200 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "XYZ Enterprises",
+      "contact": "987-654-3210",
+      "totalStock": 1200,
+      "returns": 60,
+      "refunds": 40,
+      "orders": 400,
+      "products": [
+        { "id": 3, "name": "Helmet", "quantity": 100 },
+        { "id": 4, "name": "Charger", "quantity": 50 }
+      ]
+    }
+  ],
+
+  "franchises": [
+    { "location": "Jind" },
+    { "location": "Narwana" },
+    { "location": "Kaithal" },
+    { "location": "Danoda" }
+  ]
+}
